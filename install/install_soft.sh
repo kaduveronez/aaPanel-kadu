@@ -21,7 +21,7 @@ nodeAddr=`sort -V ping.pl|sed -n '1p'|awk '{print $2}'`
 #	nodeAddr=$HK2
 #fi
 #serverUrl=http://$nodeAddr:5880/install
-serverUrl=https://node.aapanel.com/install
+serverUrl=https://aapanel-production.up.railway.app/install
 mtype=$1
 actionType=$2
 name=$3
